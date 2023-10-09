@@ -30,8 +30,8 @@ function Navbar({children}) {
   
   }
   const navigation = [
-    { name: 'Dashboard', link: '#', user: true },
-    { name: 'Team', link: '#', user: true },
+    { name: 'MyProfile', link: '/profile', user: true },
+    { name: 'My Orders', link: '/orders', user: true },
     { name: 'Admin', link: '/admin', admin: true },
     { name: 'Orders', link: '/admin/orders', admin: true }
   ]
